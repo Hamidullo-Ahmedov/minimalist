@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/ibarra-real-nova-v27-latin-regular.woff2') format('woff2'),
+       url('../fonts/ibarra-real-nova-v27-latin-regular.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap; 
+  src: url('../fonts/ibarra-real-nova-v27-latin-700.woff2') format('woff2'),
+       url('../fonts/ibarra-real-nova-v27-latin-700.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; 
+  src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'),
+       url('../fonts/public-sans-v15-latin-regular.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'),
+       url('../fonts/public-sans-v15-latin-700.woff') format('woff'),
+}
+
 *,
 ::before
 ::after {
@@ -5,8 +41,8 @@
 }
 
 body {
-  font-family: serif;
-  font-weight: normal;
+  font-family: "Ibarra Real Nova", "Times New Roman" serif;
+  font-weight: 700;
 }
 
 img {
@@ -15,7 +51,7 @@ img {
 }
 
 .container {
-  width: 1240px;
+  width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
 }
