@@ -4,7 +4,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('../fonts/ibarra-real-nova-v27-latin-regular.woff2') format('woff2'),
-       url('../fonts/ibarra-real-nova-v27-latin-regular.woff') format('woff'),
+  url('../fonts/ibarra-real-nova-v27-latin-regular.woff') format('woff'),
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-weight: 700;
   font-display: swap; 
   src: url('../fonts/ibarra-real-nova-v27-latin-700.woff2') format('woff2'),
-       url('../fonts/ibarra-real-nova-v27-latin-700.woff') format('woff'),
+  url('../fonts/ibarra-real-nova-v27-latin-700.woff') format('woff'),
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-weight: 400;
   font-display: swap; 
   src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'),
-       url('../fonts/public-sans-v15-latin-regular.woff') format('woff'),
+  url('../fonts/public-sans-v15-latin-regular.woff') format('woff'),
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-weight: 700;
   font-display: swap;
   src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'),
-       url('../fonts/public-sans-v15-latin-700.woff') format('woff'),
+  url('../fonts/public-sans-v15-latin-700.woff') format('woff'),
 }
 
 *,
@@ -50,6 +50,12 @@ img {
   height: auto;
 }
 
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   width: 1150px;
   margin-inline: auto;
@@ -65,4 +71,29 @@ img {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0)
+}
+
+.heding {
+  padding-top: 64px;
+}
+
+.heding-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 43px;
+}
+
+.nav-link {
+  color: #33323d;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration-line: none;
 }
