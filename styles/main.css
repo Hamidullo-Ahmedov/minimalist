@@ -291,3 +291,71 @@ img {
   align-items: center;
   gap: 10px;
 }
+
+/* Portfolio page started */
+
+.portfolio-hero {
+  padding-top: 50px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.portfolio-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.portfolio-item:nth-child(2n) .wrapper-portfolio-item-title {
+  margin-right: 0;
+  margin-left: 96px;
+}
+.wrapper-portfolio-item-title {
+  width: 350px;
+  margin-right: 96px;
+  padding-block: 104px;
+  border-top: 1px solid #33323d26;
+  border-bottom: 1px solid #33323d26;
+
+}
+
+.portfolio-item-title {
+  margin: 0 0 28px;
+  color: #33323D;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  line-height: 42px; /* 105% */
+  letter-spacing: -0.357px;
+}
+
+.portfolio-item-title-desc {
+  margin: 0 0 24px;
+  color: #33323dcc;
+  font-family: "Public Sans";
+  line-height: 30px; /* 187.5% */
+}
+
+.view-project {
+  display: inline-block;
+  padding: 17px 34px;
+  color: #33323d;
+  font-family: "Public Sans";
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 1px solid #33323d;
+  text-decoration-line: none;
+  transition: background-color ,color .3s linear;
+}
+.view-project:hover {
+  background-color: #33323d;
+  color: #fff;
+}
+
