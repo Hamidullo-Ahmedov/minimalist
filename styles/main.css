@@ -364,3 +364,225 @@ img {
 
 /* PORTFOLIO PAGE ENDS */
 
+/* INSURE PAGE STARTS */
+
+/* insure hero section starts */
+
+.insure-hero {
+  padding-top: 108px;
+  padding-bottom: 115px;
+}
+
+.insure-hero-wrapper {
+  background-image: url("../images/insure-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 1110px 500px;
+  margin-inline: auto;
+  width: 1110px;
+  height: 500px;
+}
+
+/* insure hero section ends */
+
+/* static preview section starts */
+
+.static-preview-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.insure-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 385px;
+  padding-block: 48px;
+  border-top: 1px solid #33323d57;
+  border-bottom: 1px solid #33323d57;
+}
+
+.insure-content-title {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  color: #33323d;
+}
+
+.insure-content-desc {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.insure-content-link {
+  text-decoration-line: none;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  color: #5fb4a2;
+}
+
+.static-preview-link {
+  margin-top: 32px;
+  width: 178px;
+  text-align: center;
+}
+
+.project-background {
+  width: 635px;
+}
+
+.project-background-title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px; 
+  letter-spacing: -0.286px;
+  color: #33323d;
+}
+
+.project-background-desc {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.project-background-subtitle {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px; 
+  letter-spacing: -0.286px;
+  color: #33323d;
+}
+
+.project-background-img {
+  margin-bottom: 32px;
+}
+
+/* static preview section ends */
+
+/* sldie section starts */
+
+.slide-sites {
+  padding-top: 64px;
+  padding-bottom: 115px;
+}
+
+.slide-list {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 0;
+  padding-left: 0;
+  /* padding-block: 32px; */
+  list-style-type: none;
+  border-top: 1px solid #33323d4b;
+  border-bottom: 1px solid #33323d4b;
+}
+
+.slide-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 580px;
+  height: 130px;
+  padding-left: 40px;
+  border-right: 1px solid #33323d4b;
+}
+
+.slide-item::before {
+  position: absolute;
+  left: calc(50% - 570px);
+  content: "";
+  width: 8px;
+  height: 16px;
+  background-image: url("../images/left-arrow-min.svg");
+}
+
+.slide-item:nth-child(2) {
+  text-align: right;
+  border-right: none;
+  padding-right: 40px;
+}
+
+.slide-item:nth-child(2)::after {
+  position: absolute;
+  left: calc(50% + 570px);
+  content: "";
+  width: 8px;
+  height: 16px;
+  background-image: url("../images/right-arrow-min.svg");
+}
+
+.slide-title {
+  margin-block: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px; 
+  letter-spacing: -0.286px;
+  color: #33323d;
+}
+
+.slide-desc {
+  margin-block: 0;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 30px; 
+  color: #33323d;
+  opacity: 0.5;
+}
+
+/* sldie section ends */
+
+/* insure article part starts */
+
+.insure-article {
+  padding-bottom: 150px;
+}
+
+.article-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.insure-article-title-wrapper {
+  width: 350px;
+}
+
+.insure-article-title {
+  margin-block: 0;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  color: #33323d;
+}
+
+.insure-article-line {
+  display: inline-block;  
+  width: 534px;
+  height: 1px;
+  background-color:  #33323d4b;
+}
+
+/* insure article part ends */
+
+/* INSURE PAGE ENDS */
+
