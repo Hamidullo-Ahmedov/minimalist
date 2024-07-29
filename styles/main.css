@@ -73,7 +73,8 @@ img {
   list-style-type: none;
 }
 
-/* start home page  */
+/* HOME PAGE STARTS  */
+
 .site-header {
   padding-block: 64px 50px;
 }
@@ -292,7 +293,9 @@ img {
   gap: 10px;
 }
 
-/* Portfolio page started */
+/* HOME PAGE ENDS */
+
+/* PORTFOLIO PAGE STARTS */
 
 .portfolio-hero {
   padding-top: 50px;
@@ -358,4 +361,6 @@ img {
   background-color: #33323d;
   color: #fff;
 }
+
+/* PORTFOLIO PAGE ENDS */
 
