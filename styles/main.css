@@ -603,3 +603,54 @@ img {
 }
 
 /* FYLO PAGE ENDS */
+
+/* CONTACT ME PAGE STARTS */
+
+/* contact me hero section starts */
+
+.contact-me-hero {
+  padding-top: 30px;
+  padding-bottom: 47px;
+}
+
+.contact-me-hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 48px;
+  border-top: 1px solid #33323d3f;
+  border-bottom: 1px solid #33323d3f;
+}
+
+.contact-me-hero-title {
+  margin-block: 0;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  color: #33323d;
+}
+
+.contact-me-hero-desc-wrapper {
+  width: 635px;
+}
+
+.contact-me-hero-desc {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #33323d;
+}
+
+.contact-me-social-list {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* contact me hero section ends */
+
+/* CONTACT ME PAGE ENDS */
