@@ -586,3 +586,20 @@ img {
 
 /* INSURE PAGE ENDS */
 
+/* FYLO PAGE STARTS */
+
+.fylo-hero {
+  padding-top: 108px;
+  padding-bottom: 115px;
+}
+
+.fylo-hero-wrapper {
+  background-image: url("../images/fylo-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 1110px 500px;
+  margin-inline: auto;
+  width: 1110px;
+  height: 500px;
+}
+
+/* FYLO PAGE ENDS */
