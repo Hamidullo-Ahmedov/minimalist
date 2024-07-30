@@ -608,6 +608,10 @@ img {
 
 /* contact me hero section starts */
 
+.site-form {
+  padding-bottom: 109px;
+}
+
 .contact-me-hero {
   padding-top: 30px;
   padding-bottom: 47px;
@@ -649,6 +653,80 @@ img {
   margin-block: 0;
   padding-left: 0;
   list-style-type: none;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+}
+
+.form-labels {
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px; 
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.form-inputs {
+  padding-block: 9px;
+  padding-left: 16px;
+  background-color: #e6e6e7;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #33323d;
+}
+
+.form-inputs:focus {
+  border: 2px solid #5fb4a2;
+}
+
+.form-inputs::placeholder {
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px; 
+  color: #33323d;
+  opacity: 0.4;
+}
+
+.form-textarea {
+  resize: none;
+  height: 96px;
+}
+
+.form-btn {
+  padding: 17px 24px;
+  text-align: center;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #203a4c;
+  border: none;
+  transition: background-color 0.3s linear;
+}
+
+.form-btn:hover {
+  background-color: #5fb4a2;
+}
+
+.form-btn:active {
+  background-color: #d2d8db;
 }
 
 /* contact me hero section ends */
