@@ -341,3 +341,35 @@ img {
   text-transform: uppercase;
   text-decoration-line: none;
 }
+
+.site-footer {
+  margin-top: 150px;
+  padding-block: 24px;
+  background-color: #33323d;
+}
+
+.site-footer-box {
+  display: flex;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  column-gap: 42px;
+  margin-inline: 49px 591px;
+}
+
+.footer-link {
+  color: #fff;
+  font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+.logo-list {
+  display: flex;
+  column-gap: 20px;
+}
